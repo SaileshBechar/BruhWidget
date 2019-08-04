@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09C"
+    android:padding="@dimen/widget_margin">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bruh_button"
+        android:background="#e057ce"
+        android:text="@string/appwidget_text"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"/>
+
+
+</RelativeLayout>

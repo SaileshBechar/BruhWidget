@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".config"
+    android:background="#aaaa">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B R U H"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:orientation="vertical"
+        android:layout_marginTop="200sp"
+        android:background="#aaaa">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:text="Bruh Sound EFFECT #2"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:id="@+id/bruh2_button"
+            android:background="#e057ce"
+            android:onClick="confimConfiguration"/>
+        <Button
+            android:layout_marginTop="50sp"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:text="Bruh 50%"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:id="@+id/bruh50_button"
+            android:background="#e057ce"
+            android:onClick="confimConfiguration"/>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

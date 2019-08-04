@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BruhWidget</string>
+    <string name="appwidget_text">Bruh</string>
+    <string name="add_widget">Add widget</string>
+</resources>
